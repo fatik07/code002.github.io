@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f9f9;
+}
+
+.nav-custom {
+  background-color: #f4f9f9 !important;
+  /* z-index: -1; */
+}
+
+/* .span-1{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+.span-2{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 720px;
+}
+
+.span-3{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -120px;
+  z-index: 1;
+} */
+
+.nav-name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #55B2DD !important;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-name-sm {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  z-index:2;
+}
+
+h1{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  z-index: 2;
+}
+
+.sub-paraf{
+  position: relative;
+  z-index: 2;
+}
+
+.logo-himti {
+  position: absolute;
+  width: 400px;
+  margin-top: -50px;
+  margin-left: 65px;
+}
+
+.isi {
+  margin-top: 200px;
+}
+
+.get-more {
+  background-color: #69B0D3;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.get-more:hover {
+  background-color: #A4D5EB;
+}
+
+.get-more p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.our-service {
+  background-color: #69B0D3;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.our-service:hover {
+  background-color: #A4D5EB;
+}
+
+.our-service p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.item {
+  margin-top: -10px;
+}
+
+.web {
+  background-color: #69B0D3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.desain {
+  background-color: #69B0D3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.mobile {
+  background-color: #69B0D3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.ui {
+  background-color: #69B0D3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.item-logo {
+  width: 40px;
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+/* profile */
+.profile{
+  margin-top: 300px;
+}
+h2{
+  margin-top: -80px !important;
+  color: #69B0D3;
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.profile-h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.ellipse-1{
+  position: absolute;
+  margin-top: -300px;
+}
+
+.people-bph {
+  margin-left: 180px;
+  margin-top: -160px;
+  height: 600px;
+  width: 75%;
+}
+
+.ellipse-2{
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 470px;
+  
+}
+
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .item{
+    margin-top: -10px;
+  }
+
+  .logo-himti {
+    position: absolute;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .img-span-1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100vh;
+    z-index: 1;
+  }
+
+  h1{
+    position: relative;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    z-index: 2;
+  }
+  
+  .sub-paraf{
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo-himti {
+    position: absolute;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 45px;
+  }
+
+  .get-more {
+    background-color: #69B0D3;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .get-more:hover{
+    background-color: #A4D5EB;
+  }
+  
+  .get-more p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .our-service {
+    background-color: #69B0D3;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .our-service:hover {
+    background-color: #A4D5EB;
+  }
+  
+  .our-service p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .item {
+    margin-top: -100px;
+  }
+
+  .web {
+    background-color: #69B0D3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .desain {
+    background-color: #69B0D3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .mobile {
+    background-color: #69B0D3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .ui {
+    background-color: #69B0D3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .item-logo {
+    width: 30px;
+    margin-top: 10px;
+    margin-left: -2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 54px;
+  }
+
+  .get-more {
+    background-color: #69B0D3;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .get-more:hover{
+    background-color: #A4D5EB;
+  }
+  
+  .get-more p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .our-service {
+    background-color: #69B0D3;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .our-service:hover {
+    background-color: #A4D5EB;
+  }
+  
+  .our-service p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .logo-himti {
+    position: absolute;
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 120px;
+  }
+  
+  .web {
+    background-color: #69B0D3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 420px;
+    margin-left: 20px;
+  }
+  
+  .desain {
+    background-color: #69B0D3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 420px;
+    margin-left: 20px;
+  }
+  
+  .mobile {
+    background-color: #69B0D3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 420px;
+    margin-left: 20px;
+  }
+  
+  .ui {
+    background-color: #69B0D3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 420px;
+    margin-left: 20px;
+  }
+
+  .item-logo {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: -2px;
+  }
+
+  .bungkus-item{
+    margin-right: 90px;
+  }
+}
