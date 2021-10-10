@@ -86,17 +86,57 @@ body {
 .web-1,.web-2{
   width: 540px;
   height: 260px;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 20px;
-  box-shadow: 7px 7px rgba(0, 0, 0, 0.13);
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
 }
 
-.img-product {
+.img-product-web {
   width: 250px;
   height: 160px;
   margin: 50px auto;
 }
 
-.deskripsi {
-  margin: 75px 10px 75px 20px;
+.img-product-mobile {
+  width: 200px;
+  height: 180px;
+  margin: 40px auto;
 }
+
+.img-product-graphic {
+  width: 200px;
+  height: 180px;
+  margin: 40px auto;
+}
+
+.img-product-ui {
+  width: 220px;
+  height: 160px;
+  margin: 50px auto;
+}
+
+.deskripsi {
+  margin: 75px 0px 75px 0px;
+}
+
+/* @media screen and (max-width: 575px){
+  .web-1,.web-2{
+    width: 440px;
+    
+    height: 260px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+  }
+
+  .img-product {
+    width: 200px;
+    
+    margin: 50px auto;
+  }
+
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} */
