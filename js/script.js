@@ -6,3 +6,9 @@ window.addEventListener('scroll',(e)=>{
     nav.classList.remove("add-shadow");
   }
 });
+
+$(document).ready(function(){
+  $(".wish-icon i").click(function(){
+    $(this).toggleClass("fa-heart fa-heart-o");
+  });
+});	

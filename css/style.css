@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -25,133 +24,71 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
-
-.span-1 {
-  position: absolute;
-  z-index: -1;
-  top: 80px;
-}
-
-.img-span-1,
-.img-span-2,
-.img-span-3 {
-  width: 500px;
-}
-
-.span-2 {
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  top: 50px;
-}
-
-.span-3 {
-  position: absolute;
-  z-index: -1;
-  top: 600px;
-  left: 0;
-}
-
-/* .span-2{
-  position: absolute;
-  margin-top: -400px;
-  margin-left: 720px;
-}
-
-.span-3{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: -120px;
-  z-index: 1;
-} */
-
 .nav-name {
   font-family: 'Mulish', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color: #55B2DD !important;
   margin-right: 150px;
 }
 
+.nav-link {
+  color: #69B0D3 !important;
+  font-weight: 300;
+}
+
+.nav-button {
+  color: white !important;
+}
+
 .nav-name-sm {
   font-family: 'Mulish', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: lighter;
+  color: #69B0D3;
+  font-size: 16px;
   z-index: 2;
 }
 
-h1 {
+/* first section */
+.isi {
+  margin-top: 150px;
+}
+
+.paraf-title {
   position: relative;
   font-family: 'Raleway', sans-serif;
-  font-size: 70px;
-  z-index: 2;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .sub-paraf {
   position: relative;
-  z-index: 2;
+  color: #5E5E5E;
+  font-size: 20px;
 }
 
 .logo-himti {
-  /* position: absolute; */
   width: 400px;
-  /* margin-top: -50px; */
-  /* margin-left: 65px; */
 }
 
-.isi {
-  margin-top: 200px;
+.button-group {
+  margin-top: 90px;
 }
 
-.get-more {
-  background-color: #69B0D3;
-  width: 200px;
-  height: 50px;
-  border-radius: 50px;
-  margin-top: 50px;
-  cursor: pointer;
-}
-
-.get-more:hover {
-  background-color: #A4D5EB;
-}
-
-.get-more p {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin-top: 8px;
-  font-size: 25px;
-  color: #fff;
-  font-weight: bold;
-}
-
+.get-more,
 .our-service {
   background-color: #69B0D3;
-  width: 200px;
-  height: 50px;
-  border-radius: 50px;
-  margin-top: 50px;
-  margin-left: 20px;
+  padding: 15px 70px;
   cursor: pointer;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: white;
 }
 
+.get-more:hover,
 .our-service:hover {
   background-color: #A4D5EB;
+  color: white;
 }
-
-.our-service p {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin-top: 8px;
-  font-size: 25px;
-  color: #fff;
-  font-weight: bold;
-}
-
-.item {
-  margin-top: -10px;
-}
-
 .web {
   background-color: #69B0D3;
   width: 70px;
@@ -190,39 +127,71 @@ h1 {
   margin-left: 3px;
 }
 
-/* profile */
-.profile {
-  margin-top: 300px;
-}
-h2 {
-  margin-top: -80px !important;
-  color: #69B0D3;
-  font-family: 'Mulish', sans-serif;
-  font-size: 36px;
-  font-weight: bold;
+/* second section */
+#profile {
+  background-color: #E0F5F6;
+  margin-top: 80px;
+  padding: 100px 0;
 }
 
-.profile-h1 {
-  font-size: 60px;
-  margin-bottom: 20px;
+.section-title {
+  font-family: 'Mulish';
+  font-size: 26px;
+  font-weight: 700;
+  color: #55B2DD;
 }
 
-.ellipse-1 {
-  position: absolute;
-  margin-top: -300px;
+.section-name {
+  font-family: 'Raleway';
+  font-size: 42px;
+  font-weight: 600;
+  color: #171717;
 }
 
-.people-bph {
-  margin-left: 180px;
-  margin-top: -160px;
-  height: 600px;
-  width: 75%;
+.section-article {
+  color: #5E5E5E;
+  text-align: justify;
+  font-size: 18px;
 }
 
-.ellipse-2 {
-  position: absolute;
-  margin-top: -80px;
-  margin-left: 470px;
+.profile-img {
+  max-width: 100%;
+}
+
+/* third section */
+#information {
+  padding: 100px 0;
+}
+.information-img {
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+/* forth section */
+#articles {
+  margin-top: 40px;
+  padding: 100px 0;
+  background-color: #69B0D3;
+}
+
+.articles-title {
+  font-family: 'Mulish';
+  font-size: 26px;
+  font-weight: 700;
+  color: #F4F9F9;
+}
+
+.articles-name {
+  font-family: 'Raleway';
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+}
+
+.articles-article {
+  color: #E0F5F6;
+  text-align: justify;
+  font-size: 18px;
 }
 
 

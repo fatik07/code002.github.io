@@ -2,33 +2,18 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-
-  <!-- link style.css -->
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Hello, world!</title>
+  <title>Himti Creative</title>
 </head>
 
 <body>
-  <span class="span-1">
-    <img class="img-span-1" src="img/1.svg" alt="">
-  </span>
-
-  <span class="span-2">
-    <img src="img/2.svg" alt="" class="img-span-2">
-  </span>
-
-  <span class="span-3">
-    <img src="img/3.svg" alt="" class="img-span-3">
-  </span>
-
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom">
     <div class="container">
       <a class="navbar-brand nav-name" href="index.html">Himti Creative</a>
@@ -37,7 +22,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 nav-name-sm">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm">
           <li class="nav-item">
             <a class="nav-link mx-2 active" aria-current="page" href="#">Website</a>
           </li>
@@ -51,46 +36,37 @@
             <a class="nav-link mx-2" href="#">UI/UX Design</a>
           </li>
         </ul>
-        <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 nav-name-sm contact">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm contact">
           <li class="nav-item">
-            <a style="color: #f4f9f9;" class="nav-link mx-2" href="#">Contact us</a>
+            <a style="color: #f4f9f9;" class="nav-link mx-2 nav-button" href="#">Contact us</a>
           </li>
         </ul>
-
       </div>
     </div>
   </nav>
 
+  <!-- first section -->
   <div class="container isi">
-    <div class="row">
-      <div class="col-lg-7 col-md-7">
-        <h1 class="fw-bolder">Achieve Your Project Perfections</h1>
-        <div class="col-lg-10 col-md-12 col-sm-12">
-          <p class="sub-paraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa beatae numquam
-            excepturi
-            vitae velit. Harum delectus quos quod magnam inventore modi, eos amet ea quibusdam obcaecati beatae fuga,
-            provident aliquam.
-          </p>
-        </div>
-        <!-- <div class="col-lg-6 col-md-6"> -->
-        <div class="row">
-          <div onclick="window.open('#', '_blank')" class="get-more">
-            <p>Get More</p>
-          </div>
-          <div onclick="window.open('#', '_blank')" class="our-service">
-            <p>Our Service</p>
-            <!-- </div> -->
-          </div>
+    <section class="row" id="homepage">
+      <div class="col-md-7">
+        <h1 class="paraf-title">Achieve Your Project Perfections</h1>
+        <p class="sub-paraf col-md-10">our professional help you create your project perfectly. no need to worry and
+          work again, just contact us and finish your project perfectly in time.</p>
+        <div class="d-flex button-group">
+          <button class="btn rounded-pill get-more me-4" onclick="window.open('#', '_blank')">
+            Get More
+          </button>
+          <button class="btn rounded-pill our-service" onclick="window.open('#', '_blank')">
+            Our Service
+          </button>
         </div>
       </div>
 
-      <div class="col-lg-5 col-md-5">
+      <div class="col-md-5">
         <div class="row">
           <div class="row justify-content-lg-center">
             <img class="logo-himti" src="img/himti.png" alt="">
           </div>
-          <!-- <div class="col-lg-6 col-md-12 col-sm-12"> -->
-          <!-- <div class="bungkus-item"> -->
           <div class="row">
             <div class="web">
               <img class="item-logo" src="img/item/Laptop Network.png" alt="">
@@ -104,64 +80,60 @@
             <div class="ui">
               <img class="item-logo" src="img/item/Paint Tool Sai.png" alt="">
             </div>
-            <!-- </div> -->
-            <!-- </div> -->
           </div>
         </div>
       </div>
+    </section>
+  </div>
 
-
-      <!-- <span class="span-2">
-      <img src="img/2.svg" alt="">
-    </span> -->
-
-
-      <!-- <span class="span-3">
-      <img src="img/3.svg" alt="">
-    </span> -->
-
-      <!-- <div class="row profile" id="profile">
-      <div class="col-5">
-        <h2>Profile</h2>
-        <h1 class="profile-h1">Himti Unesa</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ex laboriosam maiores libero saepe commodi
-          quidem,
-          quasi voluptas et non accusantium dolorum hic alias fugit eligendi voluptatibus dicta doloribus reiciendis.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eum dolore reiciendis esse beatae alias
-          cupiditate possimus corporis recusandae voluptate ducimus laboriosam suscipit, optio, saepe soluta
-          consequuntur
-          iusto itaque aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse molestias repellat
-          earum. Doloribus eveniet iusto, cumque accusantium recusandae, expedita id impedit obcaecati, soluta maiores
-          perspiciatis ipsum quia aliquam repudiandae.</p>
+  <!-- second section -->
+  <section id="profile">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-5 py-4">
+          <h4 class="section-title">Profile</h4>
+          <h2 class="section-name">Himti Unesa</h2>
+          <p class="section-article mt-4">we are a student organization majoring in informatics engineering at the state
+            university of surabaya (UNESA). himti was founded in 2015. himti gathered from the study program of
+            informatics engineering, information systems, information management and information technology education.
+            Experts in the IT field continue to be born within the Himti organization. himti develops through education,
+            training, practice, scientific development and certification held by local educational institutions. Every
+            year, Himti students always get achievements in both academic and non-academic fields. solidarity and
+            perseverance are the foundations of our organization.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/people/bph.png" class="profile-img">
+        </div>
       </div>
-      <div class="col-7">
-        <img class="ellipse-1" src="img/ellipse1.svg" alt="">
-        <img class="people-bph" src="img/people/bph.png" alt="">
-        <img class="ellipse-2" src="img/ellipse2.svg" alt="">
-      </div>
-    </div> -->
+    </div>
+  </section>
 
-      <!-- <div class="row">
-      <div class="col-5">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ex laboriosam maiores libero saepe commodi
-          quidem,
-          quasi voluptas et non accusantium dolorum hic alias fugit eligendi voluptatibus dicta doloribus reiciendis.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eum dolore reiciendis esse beatae alias
-          cupiditate possimus corporis recusandae voluptate ducimus laboriosam suscipit, optio, saepe soluta
-          consequuntur
-          iusto itaque aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse molestias repellat
-          earum. Doloribus eveniet iusto, cumque accusantium recusandae, expedita id impedit obcaecati, soluta maiores
-          perspiciatis ipsum quia aliquam repudiandae.</p>
-      </div>
-      <div class="col-7">
+  <!-- third section -->
+  <section id="information">
+    <div class="container">
+      <h4 class="section-title">Information</h4>
+      <h2 class="section-name">Cabinet Management Structure</h2>
+      <img src="img/people/cabinet.png" class="information-img">
+    </div>
+  </section>
 
+  <!-- forth section -->
+  <section id="articles">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="articles-title">Articles</h4>
+          <h2 class="articles-name">Our Latest News</h2>
+          <p class="articles-article">the following is the latest information from himti, some academic information, achievements and general informations provided</p>
+        </div>
       </div>
-    </div> -->
+    </div>
+  </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-      </script>
-      <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
+  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
