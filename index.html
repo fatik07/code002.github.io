@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom">
     <div class="container">
       <a class="navbar-brand nav-name" href="index.html">Himti Creative</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,7 +38,7 @@
         </ul>
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm contact">
           <li class="nav-item">
-            <a style="color: #f4f9f9;" class="nav-link mx-2 nav-button" href="#">Contact us</a>
+            <a class="nav-link mx-2 nav-button" href="#">Contact us</a>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
         <p class="sub-paraf col-md-10">our professional help you create your project perfectly. no need to worry and
           work again, just contact us and finish your project perfectly in time.</p>
         <div class="d-flex button-group">
-          <button class="btn rounded-pill get-more me-4" onclick="window.open('#', '_blank')">
+          <button class="btn rounded-pill get-more" onclick="window.open('#', '_blank')">
             Get More
           </button>
           <button class="btn rounded-pill our-service" onclick="window.open('#', '_blank')">
@@ -63,11 +63,11 @@
       </div>
 
       <div class="col-md-5">
-        <div class="row">
-          <div class="row justify-content-lg-center">
+        <div class="row justify-content-center">
+          <div class="row justify-content-center icon-group">
             <img class="logo-himti" src="img/himti.png" alt="">
           </div>
-          <div class="row">
+          <div class="row icon-group">
             <div class="web">
               <img class="item-logo" src="img/item/Laptop Network.png" alt="">
             </div>
@@ -90,7 +90,7 @@
   <section id="profile">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-md-5 py-4">
+        <div class="col-md-5 py-4 profile">
           <h4 class="section-title">Profile</h4>
           <h2 class="section-name">Himti Unesa</h2>
           <p class="section-article mt-4">we are a student organization majoring in informatics engineering at the state
@@ -100,6 +100,7 @@
             training, practice, scientific development and certification held by local educational institutions. Every
             year, Himti students always get achievements in both academic and non-academic fields. solidarity and
             perseverance are the foundations of our organization.</p>
+          <img src="img/people/bph.png" class="profile-img-mobile">
         </div>
         <div class="col-md-6">
           <img src="img/people/bph.png" class="profile-img">
@@ -124,16 +125,126 @@
         <div class="col-md-6">
           <h4 class="articles-title">Articles</h4>
           <h2 class="articles-name">Our Latest News</h2>
-          <p class="articles-article">the following is the latest information from himti, some academic information, achievements and general informations provided</p>
+          <p class="articles-article">the following is the latest information from himti, some academic information,
+            achievements and general informations provided</p>
+        </div>
+      </div>
+      <div class="row justify-content-between mt-4">
+        <div class="col-4">
+          <div class="card-overlay">
+            <img src="img/news/news-1.png" class="img-card-overlay">
+            <p class="card-overlay-title">Recloud 2nd</p>
+            <p class="card-overlay-date">Wednesday, July 15</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-overlay">
+            <img src="img/news/news-2.png" class="img-card-overlay">
+            <p class="card-overlay-title">Information Academic Payment</p>
+            <p class="card-overlay-date">Monday, August 24</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-overlay">
+            <img src="img/news/news-3.png" class="img-card-overlay">
+            <p class="card-overlay-title">Web Design 1st Place</p>
+            <p class="card-overlay-date">Friday, October 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3 text-center">
+          <button class="btn-load-more rounded-pill mt-4">
+            Load More
+          </button>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- fifth section -->
+  <section id="documentations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h4 class="section-title">Documentations</h4>
+          <h2 class="section-name">Our Activities</h2>
+          <p class="section-article mt-4">the following is the latest activities from himti, some academic activities, humanian activities and other activities provided</p>
+          <button class="btn-more-activities rounded-pill desktop-button">
+            More Activities
+          </button>
+        </div>
+        <div class="col-md-5 activities-group">
+          <div class="d-flex mb-4 justify-content-center">
+            <img src="img/documentations/1.png" class="img-activities top me-lg-5">
+            <img src="img/documentations/2.png" class="img-activities top me-lg-5">
+          </div>
+          <div class="d-flex justify-content-center">
+            <img src="img/documentations/3.png" class="img-activities bottom ms-lg-5">
+            <img src="img/documentations/4.png" class="img-activities bottom ms-lg-5">
+          </div>
+          <button class="btn-more-activities mobile-button rounded-pill">
+            More Activities
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row justify-content-lg-between">
+        <div class="col-md-3 img-footer-group">
+          <h2 class="footer-title">Himti Creative</h2>
+          <div class="d-flex">
+            <img src="img/unesa.png" class="img-footer img-footer-unesa">
+            <img src="img/himti.png" class="img-footer">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="sub-footer-title">Services</p>
+              <ul class="sub-footer-item-group">
+                <li class="sub-footer-item"><a href="#">Website</a></li>
+                <li class="sub-footer-item"><a href="#">Mobile Apps</a></li>
+                <li class="sub-footer-item"><a href="#">Graphic Design</a></li>
+                <li class="sub-footer-item"><a href="#">UI/UX Design</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="sub-footer-title">Organizations</p>
+              <ul class="sub-footer-item-group">
+                <li class="sub-footer-item"><a href="#">Profile</a></li>
+                <li class="sub-footer-item"><a href="#">Information</a></li>
+                <li class="sub-footer-item"><a href="#">Articles</a></li>
+                <li class="sub-footer-item"><a href="#">Documentations</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="sub-footer-title">Policies</p>
+              <ul class="sub-footer-item-group">
+                <li class="sub-footer-item"><a href="#">Privacy Policy</a></li>
+                <li class="sub-footer-item"><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-media-group">
+          <a href=""><i class="fab fa-instagram social-media"></i></a>
+          <a href=""><i class="fab fa-twitter social-media"></i></a>
+          <a href=""><i class="fab fa-facebook-f social-media"></i></a>
+      </div>
+      <p class="footer-text-mobile">Made with <span class="text-danger">&#10084;</span> by code002 X Himti Unesa</p>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
   </script>
   <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/bb982508cc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
