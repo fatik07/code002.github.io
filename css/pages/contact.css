@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F9F9;
+}
+
+.nav-custom {
+  background-color: #f4f9f9;
+  height: 80px;
+}
+
+.contact {
+  background-color: #69B0D3;
+  border-radius: 50px;
+  margin-left: 50px !important;
+}
+
+.add-shadow {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
+  transition: .3s;
+}
+
+.nav-name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #55B2DD !important;
+  margin-right: 150px;
+}
+
+.nav-name-sm {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/* contact us */
+.sub-h3 {
+  color: #55B2DD;
+}
+
+.sub-h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sub-p {
+  color: #5E5E5E;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.isi {
+  margin-top: 100px;
+}
+
+.contact-us{
+  margin: 60px 0px 30px 0px;
+  width: 250px;
+  height: 60px;
+  background-color: #69B0D3;
+  border-radius: 50px;
+}
+
+.contact-us:hover {
+  background-color: #A4D5EB;
+}
+
+.contact-us p{
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Releway', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.back{
+  width: 250px;
+  height: 60px;
+  background-color: #69B0D3;
+  border-radius: 50px;
+}
+
+.back:hover {
+  background-color: #A4D5EB;
+}
+
+.back p{
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Releway', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.kanan {
+  margin: 70px 0px;
+}
+
+
+/* @media screen and (max-width: 575px){
+  .web-1,.web-2{
+    width: 440px;
+    
+    height: 260px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+  }
+
+  .img-product {
+    width: 200px;
+    
+    margin: 50px auto;
+  }
+
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} */
