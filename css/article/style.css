@@ -55,7 +55,14 @@ body {
   z-index: 2;
 }
 
-/* contact us */
+/* detail article */
+.detail-news img{
+  margin-top: 40px;
+  height: 480px;
+  border-radius: 30px;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+}
+
 .sub-h3 {
   color: #55B2DD;
 }
@@ -76,27 +83,8 @@ body {
   margin-top: 100px;
 }
 
-.contact-us{
-  margin: 60px 0px 30px 0px;
-  width: 250px;
-  height: 60px;
-  background-color: #69B0D3;
-  border-radius: 50px;
-}
-
-.contact-us:hover {
-  background-color: #A4D5EB;
-}
-
-.contact-us p{
-  padding: 8px;
-  font-size: 30px;
-  font-family: 'Releway', sans-serif;
-  color: #fff;
-  text-align: center;
-}
-
 .back{
+  margin-top: 70px;
   width: 250px;
   height: 60px;
   background-color: #69B0D3;
