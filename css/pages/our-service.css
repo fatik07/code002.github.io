@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E0F5F6;
+}
+
+.nav-custom {
+  background-color: #f4f9f9;
+  height: 80px;
+}
+
+.contact {
+  background-color: #69B0D3;
+  border-radius: 50px;
+  margin-left: 50px !important;
+}
+
+.add-shadow {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
+  transition: .3s;
+}
+
+.nav-name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #55B2DD !important;
+  margin-right: 150px;
+}
+
+.nav-name-sm {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.sub-h3 {
+  color: #55B2DD;
+}
+
+.sub-h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sub-p {
+  color: #5E5E5E;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.isi {
+  margin-top: 100px;
+}
+
+.item {
+  margin-top: 70px;
+}
+
+.web,
+.desain,
+.mobile,
+.ui{
+  background-color: #69B0D3;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.item-logo {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.item-nama {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item-p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.get-started{
+  margin: 60px auto;
+  width: 250px;
+  height: 60px;
+  background-color: #69B0D3;
+  border-radius: 50px;
+}
+
+.get-started p{
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Releway', sans-serif;
+  color: #fff;
+  text-align: center;
+}
