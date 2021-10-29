@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -13,7 +12,6 @@ body {
 
 .nav-custom {
   background-color: #f4f9f9;
-  height: 80px;
 }
 
 .contact {
@@ -21,19 +19,25 @@ body {
   border-radius: 50px;
   margin-left: 50px !important;
   transition: .3s;
-  }
+}
 
-  .contact:hover {
-    background-color: #A4D5EB;
+.contact:hover {
+  background-color: #A4D5EB;
+}
+
+.contact-mobile {
+  display: none;
 }
 
 .add-shadow {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
+
 .nav-name {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: #55B2DD !important;
   margin-right: 150px;
 }
@@ -41,6 +45,12 @@ body {
 .nav-link {
   color: #69B0D3 !important;
   font-weight: 300;
+}
+
+.nav-link:active {
+  color: #69B0D3 !important;
+  font-weight: 300;
+  border-bottom: #69B0D3 3px solid;
 }
 
 .nav-button {
@@ -82,7 +92,7 @@ body {
 .web,
 .desain,
 .mobile,
-.ui{
+.ui {
   background-color: #69B0D3;
   width: 160px;
   height: 160px;
@@ -90,10 +100,21 @@ body {
   margin: auto;
 }
 
+.web:hover,
+.desain:hover,
+.mobile:hover,
+.ui:hover {
+  background-color: #A4D5EB;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: auto;
+}
+
 .item-logo {
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 30px;
+  width: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 .item-nama {
@@ -102,6 +123,7 @@ body {
   color: #000;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
 }
 
 .item-p {
@@ -109,20 +131,32 @@ body {
   text-align: center;
 }
 
-.get-started{
+.get-started {
   margin: 60px auto;
-  width: 250px;
-  height: 60px;
+  width: 200px;
   background-color: #69B0D3;
   border-radius: 50px;
 }
 
-.get-started p{
+.get-started:hover {
+  margin: 60px auto;
+  width: 200px;
+  background-color: #A4D5EB;
+  border-radius: 50px;
+}
+
+.get-started p {
   padding: 8px;
-  font-size: 30px;
-  font-family: 'Releway', sans-serif;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  .nav-custom {
+    height: 80px;
+  }
 }
 
 @media screen and (max-width: 512px) {
@@ -138,5 +172,85 @@ body {
 
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(105, 176, 211, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .contact-mobile {
+    display: block;
+    background-color: #69B0D3;
+    border-radius: 50px;
+    transition: .3s;
+    text-align: center;
+  }
+
+  .contact-mobile:hover {
+    background-color: #A4D5EB;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  /* content */
+  .isi {
+    margin-top: 80px;
+  }
+
+  .sub-h3 {
+    font-size: 18px;
+  }
+
+  .sub-h1 {
+    font-size: 30px;
+  }
+
+  .sub-p {
+    font-size: 14px;
+  }
+
+  .web,
+  .desain,
+  .mobile,
+  .ui {
+    background-color: #69B0D3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .item {
+    margin-top: 20px;
+  }
+
+  .item-logo {
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .item-nama {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .item-p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .get-started {
+    margin: 60px auto;
+    width: 100px;
+    background-color: #69B0D3;
+    border-radius: 50px;
+  }
+
+  .get-started p {
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
   }
 }
