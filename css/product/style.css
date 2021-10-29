@@ -19,10 +19,10 @@ body {
   border-radius: 50px;
   margin-left: 50px !important;
   transition: .3s;
-}
+  }
 
-.contact:hover {
-  background-color: #A4D5EB;
+  .contact:hover {
+    background-color: #A4D5EB;
 }
 
 .contact-mobile {
@@ -33,11 +33,9 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
-
 .nav-name {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
-  font-weight: bold;
   color: #55B2DD !important;
   margin-right: 150px;
 }
@@ -45,12 +43,6 @@ body {
 .nav-link {
   color: #69B0D3 !important;
   font-weight: 300;
-}
-
-.nav-link:active {
-  color: #69B0D3 !important;
-  font-weight: 300;
-  border-bottom: #69B0D3 3px solid;
 }
 
 .nav-button {
@@ -86,7 +78,7 @@ body {
   margin-top: 100px;
 }
 
-.back {
+.back{
   margin: 60px 0px;
   width: 250px;
   height: 60px;
@@ -94,10 +86,10 @@ body {
   border-radius: 50px;
 }
 
-.back p {
+.back p{
   padding: 8px;
   font-size: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Releway', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -106,8 +98,7 @@ body {
   margin: 70px 0px;
 }
 
-.web-1,
-.web-2 {
+.web-1,.web-2{
   width: 100%;
   background-color: transparent;
   border-radius: 20px;
@@ -120,7 +111,7 @@ body {
   margin: 50px auto;
 }
 
-.img-product-mobile,
+.img-product-mobile, 
 .img-product-graphic,
 .img-product-ui {
   width: 100%;
@@ -163,7 +154,6 @@ body {
     transition: .3s;
     text-align: center;
   }
-
   .contact-mobile:hover {
     background-color: #A4D5EB;
   }
@@ -180,12 +170,10 @@ body {
     font-size: 32px;
     font-weight: 600;
   }
-
   .sub-h3 {
     font-size: 16px;
     font-weight: 700;
   }
-
   .sub-p {
     font-size: 12px;
   }
@@ -193,7 +181,6 @@ body {
   .kanan {
     margin: 20px 0;
   }
-
   .img-product-web {
     margin: 20px 0;
   }
@@ -207,18 +194,14 @@ body {
   .deskripsi {
     margin: 20px 0;
   }
-
   .deskripsi h5 {
     font-size: 15px;
   }
-
   .deskripsi p {
     font-size: 12px;
     margin: 0;
   }
-
-  .web-1,
-  .web-2 {
+  .web-1,.web-2{
     width: 100%;
     background-color: transparent;
     border-radius: 20px;
@@ -229,7 +212,6 @@ body {
   .back {
     display: none;
   }
-
   .back-mobile {
     display: block;
     background-color: #69B0D3;
@@ -237,11 +219,10 @@ body {
     width: 40%;
     margin: 60px auto 0;
   }
-
   .back-mobile p {
     padding: 10px;
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Releway', sans-serif;
     color: #fff;
     text-align: center;
   }
