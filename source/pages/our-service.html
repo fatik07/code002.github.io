@@ -11,7 +11,7 @@
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
   <!-- link style.css -->
-  <link rel="stylesheet" href="../css/pages/our-service.css">
+  <link rel="stylesheet" href="../style/our-service.css">
 
   <title>Our Services</title>
 </head>
@@ -21,32 +21,33 @@
   <!-- nabvar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom">
     <div class="container">
-      <a class="navbar-brand nav-name" href="../index.html">Himti Creative</a>
-      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand nav-name" href="../../index.html">Himti Creative</a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm">
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="../product/web.html">Website</a>
+            <a class="nav-link mx-2 active" aria-current="page" href="../pages/web.html">Website</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="../product/mobile.html">Mobile Apps</a>
+            <a class="nav-link mx-2" href="../pages/mobile.html">Mobile Apps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="../product/graphic.html">Graphic Design</a>
+            <a class="nav-link mx-2" href="../pages/graphic.html">Graphic Design</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="../product/ui.html">UI/UX Design</a>
+            <a class="nav-link mx-2" href="../pages/ui.html">UI/UX Design</a>
           </li>
           <li class="nav-item contact-mobile">
-            <a class="nav-link mx-2 nav-button" href="./contact.html">Contact us</a>
+            <a class="nav-link mx-2 nav-button" href="../pages/contact.html">Contact us</a>
           </li>
         </ul>
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm contact">
           <li class="nav-item">
-            <a class="nav-link mx-2 nav-button" href="contact.html">Contact us</a>
+            <a class="nav-link mx-2 nav-button" href="../pages/contact.html">Contact us</a>
           </li>
         </ul>
       </div>
@@ -67,40 +68,48 @@
 
     <div class="row item">
       <div class="col-6 col-lg-3 col-md-6 col-sm-6 mb-3">
-        <div class="web">
-          <img class="item-logo" src="../img/item/Laptop Network.png" alt="">
-        </div>
+        <a href="./web.html">
+          <div class="web">
+            <img class="item-logo" src="../../img/item/Laptop Network.png" alt="">
+          </div>
+        </a>
         <h5 class="item-nama">Website Developer</h5>
-        <p class="item-p">Create an website base on laravel, codeigniter and php leaguage</p>
+        <p class="item-p">Create an website base on laravel, codeigniter, and php leaguage</p>
       </div>
 
       <div class="col-6 col-lg-3 col-md-6 col-sm-6 mb-3">
-        <div class="desain">
-          <img class="item-logo" src="../img/item/Open in Browser.png" alt="">
-        </div>
+        <a href="./mobile.html">
+          <div class="desain">
+            <img class="item-logo" src="../../img/item/Open in Browser.png" alt="">
+          </div>
+        </a>
         <h5 class="item-nama">Mobile Developer</h5>
-        <p class="item-p">Create an website base on laravel, codeigniter and php leaguage</p>
+        <p class="item-p">create an app base on flutter, react native, and kotlin language</p>
       </div>
 
       <div class="col-6 col-lg-3 col-md-6 col-sm-6 mb-3">
-        <div class="mobile">
-          <img class="item-logo" src="../img/item/Developer Mode.png" alt="">
-        </div>
+        <a href="./graphic.html">
+          <div class="mobile">
+            <img class="item-logo" src="../../img/item/Developer Mode.png" alt="">
+          </div>
+        </a>
         <h5 class="item-nama">Graphic Design</h5>
-        <p class="item-p">Create an website base on laravel, codeigniter and php leaguage</p>
+        <p class="item-p">make beautify  2d/3d design in adobe illustrator, photoshop, and corel draw platform</p>
       </div>
 
       <div class="col-6 col-lg-3 col-md-6 col-sm-6 mb-3">
-        <div class="ui">
-          <img class="item-logo" src="../img/item/Paint Tool Sai.png" alt="">
-        </div>
+        <a href="./ui.html">
+          <div class="ui">
+            <img class="item-logo" src="../../img/item/Paint Tool Sai.png" alt="">
+          </div>
+        </a>
         <h5 class="item-nama">UI/UX Design</h5>
-        <p class="item-p">Create an website base on laravel, codeigniter and php leaguage</p>
+        <p class="item-p">build ui ux design with user flow using figma or adobe xd platform</p>
       </div>
     </div>
 
     <!-- get started -->
-    <a style="text-decoration: none;" href="./contact.html">
+    <a style="text-decoration: none;" href="../pages/contact.html">
       <div class="get-started">
         <p>Get Started</p>
       </div>
@@ -109,8 +118,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-    </script>
-  <script src="../js/script.js"></script>
+  </script>
+  <script src="../scripts/script.js"></script>
 </body>
 
 </html>

@@ -19,19 +19,25 @@ body {
   border-radius: 50px;
   margin-left: 50px !important;
   transition: .3s;
-  }
+}
 
-  .contact:hover {
-    background-color: #A4D5EB;
+.contact:hover {
+  background-color: #A4D5EB;
+}
+
+.contact-mobile {
+  display: none;
 }
 
 .add-shadow {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
+
 .nav-name {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: #55B2DD !important;
   margin-right: 150px;
 }
@@ -39,6 +45,12 @@ body {
 .nav-link {
   color: #69B0D3 !important;
   font-weight: 300;
+}
+
+.nav-link:active {
+  color: #69B0D3 !important;
+  font-weight: 300;
+  border-bottom: #69B0D3 3px solid;
 }
 
 .nav-button {
@@ -80,7 +92,7 @@ body {
 .web,
 .desain,
 .mobile,
-.ui{
+.ui {
   background-color: #69B0D3;
   width: 160px;
   height: 160px;
@@ -88,10 +100,21 @@ body {
   margin: auto;
 }
 
+.web:hover,
+.desain:hover,
+.mobile:hover,
+.ui:hover {
+  background-color: #A4D5EB;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: auto;
+}
+
 .item-logo {
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 30px;
+  width: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 .item-nama {
@@ -100,6 +123,7 @@ body {
   color: #000;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
 }
 
 .item-p {
@@ -107,17 +131,24 @@ body {
   text-align: center;
 }
 
-.get-started{
+.get-started {
   margin: 60px auto;
-  width: 250px;
+  width: 200px;
   background-color: #69B0D3;
   border-radius: 50px;
 }
 
-.get-started p{
+.get-started:hover {
+  margin: 60px auto;
+  width: 200px;
+  background-color: #A4D5EB;
+  border-radius: 50px;
+}
+
+.get-started p {
   padding: 8px;
-  font-size: 30px;
-  font-family: 'Releway', sans-serif;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -150,6 +181,7 @@ body {
     transition: .3s;
     text-align: center;
   }
+
   .contact-mobile:hover {
     background-color: #A4D5EB;
   }
@@ -178,7 +210,7 @@ body {
   .web,
   .desain,
   .mobile,
-  .ui{
+  .ui {
     background-color: #69B0D3;
     width: 100px;
     height: 100px;
@@ -189,32 +221,36 @@ body {
   .item {
     margin-top: 20px;
   }
+
   .item-logo {
     width: 60px;
     margin-top: 20px;
     margin-left: 20px;
   }
+
   .item-nama {
     font-size: 15px;
     font-weight: 600;
     margin-top: 10px;
   }
+
   .item-p {
     font-size: 12px;
     margin: 0;
   }
 
-  .get-started{
+  .get-started {
     margin: 60px auto;
     width: 100px;
     background-color: #69B0D3;
     border-radius: 50px;
   }
-  .get-started p{
+
+  .get-started p {
     padding: 10px;
     font-size: 12px;
-    font-family: 'Releway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
     text-align: center;
-}
+  }
 }

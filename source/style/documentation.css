@@ -54,11 +54,12 @@ body {
   z-index: 2;
 }
 
+ /* isi */
 .isi {
   margin-top: 100px;
 }
 
-.page-title {
+/* .page-title {
   font-family: 'Mulish';
   font-size: 20px;
   font-weight: 700;
@@ -80,6 +81,92 @@ body {
   border-radius: 10%;
   margin: 20px 0;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.349);
+} */
+
+
+/* last isi */
+
+.hi-slide {
+  position: relative;
+  width: 750px;
+  height: 100px;
+  margin: 150px auto;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3692C4;
+  color: white;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+  opacity: 1;
+  background-color: #1c638a;
+}
+
+.hi-slide .hi-prev {
+  left: -100px;
+}
+
+.hi-slide .hi-prev::before {
+  content: '<';
+}
+
+.hi-slide .hi-next {
+  right: -100px;
+}
+
+.hi-slide .hi-next::before {
+  content: '>';
+}
+
+.hi-slide > ul {
+  list-style: none ;
+  position: relative;
+  width: 500px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  top: -100px;
+  margin-left: -20px;
+}
+
+.hi-slide > ul > li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 300px;
+  top: 100px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 2px solid white;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.hi-slide > ul > li > img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.back-margin {
+  margin-top: 100px;
 }
 
 .back-button {
@@ -98,6 +185,7 @@ body {
   background-color: #A4D5EB;
   color: white;
 }
+
 
 @media screen and (min-width: 960px) {
   .nav-custom {

@@ -19,19 +19,25 @@ body {
   border-radius: 50px;
   margin-left: 50px !important;
   transition: .3s;
-  }
+}
 
-  .contact:hover {
-    background-color: #A4D5EB;
+.contact:hover {
+  background-color: #A4D5EB;
+}
+
+.contact-mobile {
+  display: none;
 }
 
 .add-shadow {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
+
 .nav-name {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: #55B2DD !important;
   margin-right: 150px;
 }
@@ -39,6 +45,12 @@ body {
 .nav-link {
   color: #69B0D3 !important;
   font-weight: 300;
+}
+
+.nav-link:active {
+  color: #69B0D3 !important;
+  font-weight: 300;
+  border-bottom: #69B0D3 3px solid;
 }
 
 .nav-button {
@@ -53,14 +65,7 @@ body {
   z-index: 2;
 }
 
-/* detail article */
-.detail-news img{
-  margin-top: 40px;
-  width: 480px;
-  border-radius: 30px;
-  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
-}
-
+/* product web */
 .sub-h3 {
   color: #55B2DD;
 }
@@ -81,21 +86,18 @@ body {
   margin-top: 100px;
 }
 
-.back{
-  margin-top: 70px;
+.back {
+  margin: 60px 0px;
   width: 250px;
+  height: 60px;
   background-color: #69B0D3;
   border-radius: 50px;
 }
 
-.back:hover {
-  background-color: #A4D5EB;
-}
-
-.back p{
+.back p {
   padding: 8px;
   font-size: 30px;
-  font-family: 'Releway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -104,12 +106,40 @@ body {
   margin: 70px 0px;
 }
 
+.web-1,
+.web-2 {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+  margin-bottom: 50px;
+}
+
+.img-product-web {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.img-product-mobile,
+.img-product-graphic,
+.img-product-ui {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.deskripsi {
+  margin: 75px 0px 75px 0px;
+}
+
+.back-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 960px) {
   .nav-custom {
     height: 80px;
   }
 }
-
 
 @media screen and (max-width: 512px) {
 
@@ -125,6 +155,7 @@ body {
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(105, 176, 211, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
+
   .contact-mobile {
     display: block;
     background-color: #69B0D3;
@@ -141,39 +172,77 @@ body {
     display: none;
   }
 
-  .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(105, 176, 211, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-
   .isi {
-    margin-top: 0px;
-  }
-
-  .detail-news img {
-    width: 100%;
-    margin: 0;
+    margin-top: 20px;
   }
 
   .sub-h1 {
-    font-size: 2em;
+    font-size: 32px;
+    font-weight: 600;
   }
 
   .sub-h3 {
-    font-size: 1.2em;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .sub-p {
-    font-size: 1em;
+    font-size: 12px;
+  }
+
+  .kanan {
+    margin: 20px 0;
+  }
+
+  .img-product-web {
+    margin: 20px 0;
+  }
+
+  .web-1 .row .col-6:last-child,
+  .web-2 .row .col-6:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .deskripsi {
+    margin: 20px 0;
+  }
+
+  .deskripsi h5 {
+    font-size: 15px;
+  }
+
+  .deskripsi p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .web-1,
+  .web-2 {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+    margin-bottom: 10px;
   }
 
   .back {
-    margin-top: 40px;
-    width: 120px;
-    border-radius: 50px;
+    display: none;
   }
 
-  .back p {
+  .back-mobile {
+    display: block;
+    background-color: #69B0D3;
+    border-radius: 50px;
+    width: 40%;
+    margin: 60px auto 0;
+  }
+
+  .back-mobile p {
     padding: 10px;
     font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
   }
 }

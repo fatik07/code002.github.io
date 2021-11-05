@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #f4f9f9;
 }
@@ -18,10 +19,10 @@ body {
   border-radius: 50px;
   margin-left: 50px !important;
   transition: .3s;
-  }
+}
 
-  .contact:hover {
-    background-color: #A4D5EB;
+.contact:hover {
+  background-color: #A4D5EB;
 }
 
 .contact-mobile {
@@ -32,9 +33,11 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
   transition: .3s;
 }
+
 .nav-name {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: #55B2DD !important;
   margin-right: 150px;
 }
@@ -42,6 +45,12 @@ body {
 .nav-link {
   color: #69B0D3 !important;
   font-weight: 300;
+}
+
+.nav-link:active {
+  color: #69B0D3 !important;
+  font-weight: 300;
+  border-bottom: #69B0D3 3px solid;
 }
 
 .nav-button {
@@ -98,11 +107,23 @@ body {
   background-color: #A4D5EB;
   color: white;
 }
+
 .web,
 .desain,
 .mobile,
 .ui {
   background-color: #69B0D3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.web:hover,
+.desain:hover,
+.mobile:hover,
+.ui:hover {
+  background-color: #A4D5EB;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -154,6 +175,7 @@ body {
 #information {
   padding: 100px 0;
 }
+
 .information-img {
   margin-top: 30px;
   max-width: 100%;
@@ -186,34 +208,76 @@ body {
   font-size: 18px;
 }
 
-.card-overlay {
-  position: relative;
+.card-overlay-link {
+  text-decoration: none;
 }
 
-.img-card-overlay {
-  border-radius: 20px;
-  max-width: 100%;
+.card-overlay {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border-radius: 25px;
+  background-size: cover;
+}
+
+.card-overlay.news-1 {
+  background-image: url('../../img/news/news-1.jpg');
+}
+
+.card-overlay.news-2 {
+  background-image: url('../../img/news/news-2.jpg');
+}
+
+.card-overlay.news-3 {
+  background-image: url('../../img/news/news-3.jpg');
+}
+
+.card-overlay-title,
+.card-overlay-date {
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
 }
 
 .card-overlay-title {
-  position: absolute;
-  font-family: 'Mulish';
-  font-weight: 600;
-  font-size: 16px;
   color: white;
-  top: 305px;
-  left: 20px;
 }
 
 .card-overlay-date {
-  position: absolute;
-  font-family: 'Mulish';
-  font-weight: 600;
-  font-size: 16px;
   color: rgba(255, 255, 255, 0.541);
-  top: 280px;
-  left: 20px;
 }
+
+.card-overlay-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  height: 100%;
+  border-radius: 25px;
+  background: linear-gradient(rgba(230, 100, 100, 0), #000000);
+  opacity: 0;
+  transition: .3s;
+}
+
+.card-overlay-link:hover .card-overlay-body {
+  opacity: 1;
+}
+
+.btn-load-more {
+  font-family: 'Raleway';
+  font-size: 18px;
+  padding: 10px 30px;
+  border: 0;
+  transition: .3s;
+}
+
+.btn-load-more:hover {
+  background-color: #A4D5EB;
+  color: white;
+}
+
 /* fifth section */
 #documentations {
   padding: 100px 0;
@@ -282,6 +346,11 @@ body {
 .sub-footer-item>a {
   text-decoration: none;
   color: #5E5E5E;
+  transition: .3s;
+}
+
+.sub-footer-item>a:hover {
+  color: black;
 }
 
 .sub-footer-item-group {
@@ -336,6 +405,7 @@ body {
     transition: .3s;
     text-align: center;
   }
+
   .contact-mobile:hover {
     background-color: #A4D5EB;
   }
@@ -436,6 +506,16 @@ body {
   .articles-article {
     font-size: 15px;
   }
+
+  .btn-load-more {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .card-overlay {
+    height: 120px;
+  }
+
   .card-overlay-date,
   .card-overlay-title {
     display: none;
@@ -494,9 +574,13 @@ body {
     width: 22%;
   }
 
-  .img-footer-unesa {
+  .img-footer {
     object-fit: contain;
     width: 15%;
+  }
+
+  .img-footer.himti {
+    width: 22%;
   }
 
   .img-footer-group {

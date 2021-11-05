@@ -7,7 +7,7 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./source/style/style.css">
 
   <title>Himti Creative</title>
 </head>
@@ -17,31 +17,32 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom">
     <div class="container">
       <a class="navbar-brand nav-name" href="index.html">Himti Creative</a>
-      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm">
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="product/web.html">Website</a>
+            <a class="nav-link mx-2 active" aria-current="page" href="./source/pages/web.html">Website</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="product/mobile.html">Mobile Apps</a>
+            <a class="nav-link mx-2" href="./source/pages/mobile.html">Mobile Apps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="product/graphic.html">Graphic Design</a>
+            <a class="nav-link mx-2" href="./source/pages/graphic.html">Graphic Design</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="product/ui.html">UI/UX Design</a>
+            <a class="nav-link mx-2" href="./source/pages/ui.html">UI/UX Design</a>
           </li>
           <li class="nav-item contact-mobile">
-            <a class="nav-link mx-2 nav-button" href="pages/contact.html">Contact us</a>
+            <a class="nav-link mx-2 nav-button" href="./source/pages/contact.html">Contact us</a>
           </li>
         </ul>
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-name-sm contact">
           <li class="nav-item">
-            <a class="nav-link mx-2 nav-button" href="pages/contact.html">Contact us</a>
+            <a class="nav-link mx-2 nav-button" href="./source/pages/contact.html">Contact us</a>
           </li>
         </ul>
       </div>
@@ -53,15 +54,15 @@
     <section class="row" id="homepage">
       <div class="col-md-7">
         <h1 class="paraf-title">Achieve Your Project Perfections</h1>
-        <p class="sub-paraf col-md-10">our professional help you create your project perfectly. no need to worry and
+        <p class="sub-paraf col-md-10">Our professional help you create your project perfectly. no need to worry and
           work again, just contact us and finish your project perfectly in time.</p>
         <div class="d-flex button-group">
-          <a href="./pages/contact.html">
+          <a href="#profile">
             <button class="btn rounded-pill get-more">
               Get More
             </button>
           </a>
-          <a href="pages/our-service.html">
+          <a href="./source/pages/our-service.html">
             <button class="btn rounded-pill our-service">
               Our Service
             </button>
@@ -100,7 +101,7 @@
         <div class="col-md-5 py-4 profile">
           <h4 class="section-title">Profile</h4>
           <h2 class="section-name">Himti Unesa</h2>
-          <p class="section-article mt-4">we are a student organization majoring in informatics engineering at the state
+          <p class="section-article mt-4">We are a student organization majoring in informatics engineering at the state
             university of surabaya (UNESA). himti was founded in 2015. himti gathered from the study program of
             informatics engineering, information systems, information management and information technology education.
             Experts in the IT field continue to be born within the Himti organization. himti develops through education,
@@ -132,38 +133,43 @@
         <div class="col-md-6">
           <h4 class="articles-title">Articles</h4>
           <h2 class="articles-name">Our Latest News</h2>
-          <p class="articles-article">the following is the latest information from himti, some academic information,
+          <p class="articles-article">The following is the latest information from himti, some academic information,
             achievements and general informations provided</p>
         </div>
       </div>
       <div class="row justify-content-between mt-4">
+
         <div class="col-4">
-          <a href="article/news-1.html">
-            <div class="card-overlay">
-              <img src="img/news/news-1.png" class="img-card-overlay">
-              <p class="card-overlay-title">Recloud 2nd</p>
-              <p class="card-overlay-date">Wednesday, July 15</p>
+          <a href="./source/pages/news-1.html" class="card-overlay-link">
+            <div class="card-overlay news-1">
+              <div class="card-overlay-body">
+                <p class="card-overlay-title">2nd Place Re-cloud Competition</p>
+                <p class="card-overlay-date">Friday, October 2</p>
+              </div>
             </div>
           </a>
         </div>
         <div class="col-4">
-          <a href="article/news-1.html">
-            <div class="card-overlay">
-              <img src="img/news/news-2.png" class="img-card-overlay">
-              <p class="card-overlay-title">Information Academic Payment</p>
-              <p class="card-overlay-date">Monday, August 24</p>
+          <a href="./source/pages/news-3.html" class="card-overlay-link">
+            <div class="card-overlay news-3">
+              <div class="card-overlay-body">
+                <p class="card-overlay-title">Winner of Hack The Mountain 2.0</p>
+                <p class="card-overlay-date">Friday, October 2</p>
+              </div>
             </div>
           </a>
         </div>
         <div class="col-4">
-          <a href="article/news-1.html">
-            <div class="card-overlay">
-              <img src="img/news/news-3.png" class="img-card-overlay">
-              <p class="card-overlay-title">Web Design 1st Place</p>
-              <p class="card-overlay-date">Friday, October 2</p>
+          <a href="./source/pages/news-2.html" class="card-overlay-link">
+            <div class="card-overlay news-2">
+              <div class="card-overlay-body">
+                <p class="card-overlay-title">UTY Web Design Competition 1st Place</p>
+                <p class="card-overlay-date">Sunday, October 17</p>
+              </div>
             </div>
           </a>
         </div>
+
       </div>
     </div>
   </section>
@@ -175,8 +181,9 @@
         <div class="col-md-5">
           <h4 class="section-title">Documentations</h4>
           <h2 class="section-name">Our Activities</h2>
-          <p class="section-article mt-4">the following is the latest activities from himti, some academic activities, humanian activities and other activities provided</p>
-          <a style="text-decoration: none;" href="./pages/documentations.html">
+          <p class="section-article mt-4">the following is the latest activities from himti, some academic activities,
+            humanian activities and other activities provided</p>
+          <a href="./source/pages/documentation.html">
             <button class="btn-more-activities rounded-pill desktop-button">
               More Activities
             </button>
@@ -191,7 +198,7 @@
             <img src="img/documentations/3.png" class="img-activities bottom ms-lg-5">
             <img src="img/documentations/4.png" class="img-activities bottom ms-lg-5">
           </div>
-          <a style="text-decoration: none;" href="./pages/documentations.html">
+          <a href="./source/pages/documentation.html">
             <button class="btn-more-activities mobile-button rounded-pill">
               More Activities
             </button>
@@ -207,8 +214,8 @@
         <div class="col-md-3 img-footer-group">
           <h2 class="footer-title">Himti Creative</h2>
           <div class="d-flex">
-            <img src="img/unesa.png" class="img-footer img-footer-unesa">
-            <img src="img/himti.png" class="img-footer">
+            <img src="img/unesa.png" class="img-footer">
+            <img src="img/himti.png" class="img-footer himti">
           </div>
         </div>
         <div class="col-md-6">
@@ -216,19 +223,19 @@
             <div class="col-md-4">
               <p class="sub-footer-title">Services</p>
               <ul class="sub-footer-item-group">
-                <li class="sub-footer-item"><a href="./product/web.html">Website</a></li>
-                <li class="sub-footer-item"><a href="./product/mobile.html">Mobile Apps</a></li>
-                <li class="sub-footer-item"><a href="./product/graphic.html">Graphic Design</a></li>
-                <li class="sub-footer-item"><a href="./product/ui.html">UI/UX Design</a></li>
+                <li class="sub-footer-item"><a href="./source/pages/web.html">Website</a></li>
+                <li class="sub-footer-item"><a href="./source/pages/mobile.html">Mobile Apps</a></li>
+                <li class="sub-footer-item"><a href="./source/pages/graphic.html">Graphic Design</a></li>
+                <li class="sub-footer-item"><a href="./source/pages/ui.html">UI/UX Design</a></li>
               </ul>
             </div>
             <div class="col-md-4">
               <p class="sub-footer-title">Organizations</p>
               <ul class="sub-footer-item-group">
-                <li class="sub-footer-item"><a href="#">Profile</a></li>
-                <li class="sub-footer-item"><a href="#">Information</a></li>
-                <li class="sub-footer-item"><a href="#">Articles</a></li>
-                <li class="sub-footer-item"><a href="#">Documentations</a></li>
+                <li class="sub-footer-item"><a href="#profile">Profile</a></li>
+                <li class="sub-footer-item"><a href="#information">Information</a></li>
+                <li class="sub-footer-item"><a href="#articles">Articles</a></li>
+                <li class="sub-footer-item"><a href="#documentations">Documentations</a></li>
               </ul>
             </div>
             <div class="col-md-4">
@@ -242,9 +249,10 @@
         </div>
       </div>
       <div class="social-media-group">
-          <a href=""><i class="fab fa-instagram social-media"></i></a>
-          <a href=""><i class="fab fa-twitter social-media"></i></a>
-          <a href=""><i class="fab fa-facebook-f social-media"></i></a>
+        <a href="https://www.instagram.com/himti_unesa/" target="_blank"><i
+            class="fab fa-instagram social-media"></i></a>
+        <a href="https://twitter.com/HIMTI_Unesa" target="_blank"><i class="fab fa-twitter social-media"></i></a>
+        <a href=""><i class="fab fa-facebook-f social-media"></i></a>
       </div>
       <p class="footer-text-mobile">Made with <span class="text-danger">&#10084;</span> by code002 X Himti Unesa</p>
     </div>
@@ -252,8 +260,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-  </script>
-  <script src="js/script.js"></script>
+    </script>
+  <script src="./source/scripts/script.js"></script>
   <script src="https://kit.fontawesome.com/bb982508cc.js" crossorigin="anonymous"></script>
 </body>
 
